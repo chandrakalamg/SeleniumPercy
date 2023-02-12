@@ -1,0 +1,25 @@
+{
+  "name": "seleniumpercy",
+  "version": "1.0.0",
+  "description": "selenium Javascript",
+  "main": "",
+  "scripts": {
+    "test": "percy exec -- node tests/seleniumtest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandrakalamg/SeleniumPercy.git"
+  },
+  "author": "",
+  "license": "ISC",
+
+  "homepage": "https://github.com/chandrakalamg/SeleniumPercy#readme",
+  "dependencies": {
+    "chromedriver": "^110.0.0",
+    "selenium-webdriver": "^4.8.0"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.18.0",
+    "@percy/selenium-webdriver": "^1.0.2"
+  }
+}
